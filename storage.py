@@ -20,6 +20,5 @@ def decrypt_private_key(encrypted_private_key, password):
 
 
 #PBKDF2(Password-Based Key Derivation Function 2)
-#to generate secure password storage we use password + salt which gives hash function
-#in PBKDF2 we have salt + password +no. of iteration(no. of times it will be hashed)
-#also make harder to brute force
+#to generate secure password storage we use password + salt which gives hash function in PBKDF2 we have salt + password +no. of iteration(no. of times it will be hashed) 
+    # also make harder to brute force
